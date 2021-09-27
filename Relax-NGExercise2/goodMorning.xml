@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="goodMorning-ebb.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="Lilley-RelaxNG2.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <source>
-        <title level="book">Montage of a Dream Deferred</title>
+        <poemTitle level="book">Montage of a Dream Deferred</poemTitle>
         <altTitle>Harlem</altTitle>
         <author>Langston Hughes</author>
         <pubPlace where="NYC">New York</pubPlace>
