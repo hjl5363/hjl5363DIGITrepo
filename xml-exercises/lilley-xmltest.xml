@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <sourceDoc>
+        <Docsource> <!-- "Docsource needed to be added due to an opening tag being needed. -->
+        See also (alternative article): https://www.xml.com/articles/2018/02/10/xml-20/
+        <title>The World Wide Success That Is XML</title> <!--  -->
+        <author>Liam Quin</author>
+        <source><ref> <!-- There needed to be a closing bracket added to "ref". -->
+            target = "https://www.w3.org/blog/2018/07/the-world-wide-success-that-is-xml/">W3C blog</ref> <!-- There is an = needed after target. -->
+            <pubDate when="2018-07-27"></pubDate> <!-- A closing element needed to be added for "pubDate". -->
+        </source>
+    </Docsource>
+    </sourceDoc> <!-- "/sourceDoc" needed to be added as an end tag as it was not in existance before. -->
+    <text>
+        <headLine>THE WORLD WIDE SUCCESS THAT IS XML</headLine>
+        <byLine>
+            <date>when=2018-07-27>27 July 2018</date> by <author>Liam Quin</author> | Posted <!-- I added a closing end tag to the beginnning tag for "date". -->
+            in: <keyWords>XML, standards, validation, xml, xml schema, xquery, XSD, xsl,
+                XSLT</keyWords> 
+        </byLine>
+           <p>Most of the <orgName>XML Working Groups</orgName> have been closed by now; this year saw <orgName type="workGroup">XQuery</orgName> and <orgName type="workGroup">XSLT</orgName>
+           close, their work successfully completed.
+            As we wind down work on standardizing the XML stack at <orgName>W3C</orgName> it’s worth looking at some of
+            what <!-- There was an angle bracket in front of "what". --> we have accomplished and why. <codeLang>W3C XML, the Extensible Markup Language</codeLang>, is one of
+           the world’s most widely-used formats for representing and exchanging information. The
+            final <codeLang type="stack">XML stack</codeLang> <!-- </codeLang> needed to have the slash put in front instead of the back of the word. -->is more powerful and easier to work with than many people know,
+            especially for people who might not have used XML since its early days. <!-- There needed to be a slash added because "p" is a closing element in this case. -->
+            Thank you to all who have contributed.</p>
+            <author>Liam Quin</author>, leaving <orgName>W3C</orgName> this week after <duration quantity="17" unit="year">almost 17 years with </duration><!-- I moved "duration" here to make it more organized --><orgName type="workGroup">XML</orgName>.</p> <!-- I moved "</orgName> be listed right after XML. -->
+    </text>
