@@ -23,7 +23,18 @@
            </body> 
        </html>
    </xsl:template> 
+   <xsl:template match="listOrg">
+       <li><xsl:apply-templates select="descendant::head"/></li>
+       <ul><xsl:apply-templates select ="descendant::org"/></ul>
+   </xsl:template>
+        <xsl:template match ="org">
+           <li><xsl:apply-templates select="descendant::orgName"></xsl:apply-templates></li>
+        </xsl:template>
  
+        
+        
+        
+    
     
    
     
