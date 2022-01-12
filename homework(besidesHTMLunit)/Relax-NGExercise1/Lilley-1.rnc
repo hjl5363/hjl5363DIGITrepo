@@ -1,8 +1,0 @@
-start = Ozymandias
-Ozymandias = element Ozymandias{layer}
-layer = element layer {agent,mixed {(lb+ |layer| ellipsis?)*}}
-ellipsis = element ellipsis {rend, empty}
-agent = attribute agent {"traveller"|"I"|"sculptor"}
-lb = element lb{n,empty}
-rend = attribute rend {text}
-n = attribute n {xsd:integer}
