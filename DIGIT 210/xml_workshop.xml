@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>Country Loaf (Pain de Campagne)
 
-<authorInfo>Deb Lindsey for The Washington Post</authorInfo>
+<authorInfo><author>Deb Lindsey</author> <transitionWord>for</transitionWord> <newsOrganization>The Washington Post</newsOrganization></authorInfo>
 
 <date>SEP 10, 2014</date>
     
