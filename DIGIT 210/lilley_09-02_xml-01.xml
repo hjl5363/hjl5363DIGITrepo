@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>Country Loaf (Pain de Campagne)
-<authorInfo><author>Deb Lindsey</author> <transitionWord>for</transitionWord> <newsOrganization>The Washington Post</newsOrganization></authorInfo>
-<date>SEP 10, 2014</date>
-<sentence num="1">Washington author Sam Fromartz has been making sourdough variations of this yeast bread for years. Here, he adds fermented cider for flavor. A mild beer may be substituted; an IPA would be too bitter. The loaf is sized to last a few days.</sentence>
+<root><title>Country Loaf (Pain de Campagne)</title><br/>
+<authorInfo><author>Deb Lindsey</author> <transitionWord>for</transitionWord> <newsOrganization>The Washington Post</newsOrganization></authorInfo><br/>
+    <date>SEP 10, 2014</date><br/>
+    <sentence num="1">Washington author Sam Fromartz has been making sourdough variations of this yeast bread for years. Here, he adds fermented cider for flavor. A mild beer may be substituted; an IPA would be too bitter. The loaf is sized to last a few days.</sentence><br/>
 <sentence num="2">The optional tablespoon of water is to compensate for the variable absorption of the rye and whole-wheat flours.
-</sentence>
-<sentence num="3">You'll need a colander, a pastry cloth or clean dish towel and a covered cast-iron or enameled cast-iron pot.</sentence>
-<sentence num="4">Make Ahead: The dough needs four 20-minute rests, plus an 8-to-24-hour stay in the refrigerator and a final 1 1/2-hour rise.</sentence>
-<storageNotes>Storage Notes: Store the cooled loaf in a paper bag for a day, and store in a plastic bag for a few days after that. Do not refrigerate.</storageNotes>
-<nutritionInformation><servings>
+</sentence><br/>
+    <sentence num="3">You'll need a colander, a pastry cloth or clean dish towel and a covered cast-iron or enameled cast-iron pot.</sentence><br/>
+    <sentence num="4">Make Ahead: The dough needs four 20-minute rests, plus an 8-to-24-hour stay in the refrigerator and a final 1 1/2-hour rise.</sentence><br/>
+    <storageNotes>Storage Notes: Store the cooled loaf in a paper bag for a day, and store in a plastic bag for a few days after that. Do not refrigerate.</storageNotes><br/>
+<nutritionInformation num="1"><servings>
     SERVINGS:
 Tested size: 10-12 servings; makes one 11-ounce loaf 10 to 12 slices
-</servings></nutritionInformation>
-<nutritionInformation><ingredients>INGREDIENTS
-1 1/4 cups (160 grams) white bread flour, plus more for dusting
-1/4 cup (38 grams) stone-ground whole-wheat flour
-1/4 cup (32 grams) stone-ground whole rye flour
-1/2 teaspoon instant yeast or bread machine yeast
-1 teaspoon table salt
-1/4 cup (55 grams) dry fermented cider (may substitute Pilsener beer; see headnote)
-1/2 cup (120 grams) lukewarm water (80 degrees), plus an optional 1 tablespoon</ingredients></nutritionInformation>
+</servings></nutritionInformation><br/>
+    <nutritionInformation num="2"><ingredients><title>INGREDIENTS</title></ingredients>
+        1 1/4 cups (160 grams) white bread flour, plus more for dusting
+        1/4 cup (38 grams) stone-ground whole-wheat flour
+        1/4 cup (32 grams) stone-ground whole rye flour
+        1/2 teaspoon instant yeast or bread machine yeast
+        1 teaspoon table salt
+        1/4 cup (55 grams) dry fermented cider (may substitute Pilsener beer; see headnote)
+        1/2 cup (120 grams) lukewarm water (80 degrees), plus an optional 1 tablespoon</ingredients></nutritionInformation>
 <recipeSteps><directions><recipe>DIRECTIONS
 <Step1>Whisk together the flours, yeast and salt in a mixing bowl. Combine the cider and water in a liquid measuring cup.
 </Step1>
