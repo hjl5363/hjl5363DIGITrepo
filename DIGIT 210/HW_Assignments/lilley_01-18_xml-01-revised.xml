@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <title>Country Loaf (Pain de Campagne)</title>
+   <xml> <title>Country Loaf (Pain de Campagne)</title>
     <br/>
     <authorInfo>
         <author>Deb Lindsey</author>
         <transitionWord>for</transitionWord>
-        <newsOrganization>The Washington Post</newsOrganization>
+        <company><newsOrganization>The Washington Post</newsOrganization></company>
     </authorInfo>
     <br/>
     <date>SEP 10, 2014</date>
-    <br/>
+    <br/><generalInformation>
     <sentence num="1">Washington author Sam Fromartz has been making sourdough variations of this
         yeast bread for years. Here, he adds fermented cider for flavor. A mild beer may be
         substituted; an IPA would be too bitter. The loaf is sized to last a few days.</sentence>
@@ -24,7 +24,7 @@
         the refrigerator and a final 1 1/2-hour rise.</sentence>
     <br/>
     <storageNotes>Storage Notes: Store the cooled loaf in a paper bag for a day, and store in a
-        plastic bag for a few days after that. Do not refrigerate.</storageNotes>
+        plastic bag for a few days after that. Do not refrigerate.</storageNotes></generalInformation>
     <br/>
     <nutritionInformation num="1">
         <servings> SERVINGS: Tested size: 10-12 servings; makes one 11-ounce loaf 10 to 12 slices
@@ -104,5 +104,5 @@
                 </cookingInformation> Transfer the loaf to a wire rack to cool for at least 1 hour
                 before cutting.</recipe>
         </directions>
-    </recipeSteps>
+    </recipeSteps></xml>
 </root>
