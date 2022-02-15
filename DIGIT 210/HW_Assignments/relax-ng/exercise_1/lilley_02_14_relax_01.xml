@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="lilley_02_14_relax_01.xml">
+<?xml-model href="lilley_02_14_relax_01.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
     <title>D R A C U L A</title>
 
     <chapter n="1">
