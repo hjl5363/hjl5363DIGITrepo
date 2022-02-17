@@ -1,0 +1,28 @@
+start = root
+root = element root {xml}
+xml = element xml {(title | authorInfo | date | generalInformation| nutritionInformation | recipeSteps | br)*}
+title = element title {text}
+authorInfo = element authorInfo {author, transitionWord, company, text}
+author = element author {text}
+transitionWord = element transitionWord {text}
+company = element company {newsOrganization, text}
+newsOrganization = element newsOrganization {text}
+date = element date {text}
+sentence = element sentence {num, text}
+storageNotes = element storageNotes {text}
+nutritionInformation = element nutritionInformation {num, (ingredients | servings | text)*}
+ingredients = element ingredients {(title | br | ingredient)*}
+ingredient = element ingredient {num, text}
+num = attribute num {text}
+generalInformation = element generalInformation {(sentence+ | br+ | storageNotes)*}
+recipeSteps = element recipeSteps {directions}
+directions = element directions {(recipe+ | br+)*}
+recipeStep = element recipeStep {num, text}
+recipe = element recipe {(text | recipeStep+ | br+ | cookingInformation)*}
+cookingInformation = element cookingInformation {(text | br)*}
+br = element br {empty}
+servings = element servings {text}
+
+# Make sure to use parenthasees if you want to indicate that any element within an element can appear at any time, in any amount, or in any order.
+
+# The main issue that I am still struggling with is avoiding the duplication of elements in Relax-NG. I did most of the exercise by myself, but Jackie helped me with a couple of minor tweaks, such as issues with duplicating and putting commas when I should have put | pipes and parenthases.

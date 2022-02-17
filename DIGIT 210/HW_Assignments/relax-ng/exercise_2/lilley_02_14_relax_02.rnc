@@ -4,4 +4,6 @@ metadata = element metadata {title. brodcastInfo, author+, composer, director, s
 title = element title {media, mixed{date?}}
 media = attribute media {"radioscript"} | "novel" | "music"}
 date = element date {when, text}
-when = attribute when {xsd:date
+when = attribute when {xsd:date}
+author = element author {media, text}
+media = attribute media {text}
