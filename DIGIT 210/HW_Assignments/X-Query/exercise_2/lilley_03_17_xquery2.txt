@@ -1,0 +1,29 @@
+Question #1
+
+b.let $plays := collection('/db/apps/shakespeare/data/')//TEI
+let $speaker:= $plays//speaker =>count()
+return $speaker
+
+c.The distinct values is only displaying the text inside of the elements. When I have the function turned off, the elements and the text will both appear.
+
+d.let $speaker:= $plays//speaker =>distinct-values()=>count()
+return $speaker
+
+E.
+
+b. for $p in $plays
+let $title :=$p//title
+return $title
+
+c. for $p in $plays
+let $speakers :=$p//speaker=>distinct-values()=>count()
+return $speakers
+
+d. for $p in $plays
+let $speakers :=$p//speaker=>distinct-values()=>count()
+where $speakers>50
+return $speakers
+
+2.
+
+a. 
