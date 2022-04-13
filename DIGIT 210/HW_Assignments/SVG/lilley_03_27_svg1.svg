@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-    <svg height="210" width="500">
-        <line x1="0" y1="0" x2="200" y2="200" stroke-width="25" fill="pink"  />
-        <line x1="0" y1="0" x2="200" y2="200" stroke-width="25" fill="green"  />
-        <line x1="0" y1="0" x2="200" y2="200" stroke-width="25" fill="red"  />
-        <text x="0" y="15" fill="red">I love Diet Coke!</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600s">
+        <g transform="translate(50 0)" alignment-baseline="baseline">
+            <line x1="10" y1="450" x2="500" y2="450" stroke-width="2" stroke="black"/> <!-- x-axis -->
+            <line x1="10" y1="450" x2="0" y2="0" stroke-width="2" stroke="black"/><!-- y-axis -->
+            <text text-anchor="middle" transform="rotate(180deg)" x="0" y="200">square mileage</text>
+            <line x1="50" y1="450" x2="50" y2="46" stroke-width="20" stroke="red"/> <!-- Tahiti -->
+            <text x="40" y="470">Tahiti</text>
+            <line x1="200" y1="450" x2="200" y2="385" stroke-width="20" stroke="green"/> <!-- Raiatea -->
+            <text x="200" y="490">Raiatea</text>
+            <line x1="400" y1="450" x2="400" y2="350" stroke-width="20" stroke="blue"/> <!-- Tongatapu -->
+            <text x="390" y="490">Tongatapu</text>
+        <text x="0" y="15" fill="red">Relative Size in Square Miles in Three Pacific Islands</text>
         
-    </svg>
-    <g alignment-baseline="baseline"></g>
+    
+    </g>
 </svg>
