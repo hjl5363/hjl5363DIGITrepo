@@ -4,7 +4,7 @@
         <g transform="translate(50 0)" alignment-baseline="baseline">
             <line x1="10" y1="450" x2="500" y2="450" stroke-width="2" stroke="black"/> <!-- x-axis -->
             <line x1="10" y1="450" x2="0" y2="0" stroke-width="2" stroke="black"/><!-- y-axis -->
-            <text text-anchor="middle" transform="rotate(180deg)" x="0" y="200">square mileage</text>
+            <text text-anchor="middle" transform="rotate(180deg)" x="0" y="200"></text>
             <line x1="50" y1="450" x2="50" y2="46" stroke-width="20" stroke="red"/> <!-- Tahiti -->
             <text x="40" y="470">Tahiti</text>
             <line x1="200" y1="450" x2="200" y2="385" stroke-width="20" stroke="green"/> <!-- Raiatea -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+        
+        <line x1="10" y1="450" x2="500" y2="450" stroke-width="5" stroke="black"/>
+        <line x1="10" y1="450" x2="10" y2="0" stroke-width="5" stroke="black"/>
+    <text text-anchor="middle" transform="rotate(180deg)" x="20" y="250"></text>
+    <line x1="50" y1="450" x2="50" y2="46" stroke-width="20" stroke="red"/> <!-- Tahiti -->
+    <text text-anchor="middle" transform="rotate(180deg)" x="40" y="470">Tahiti</text>
+    <line x1="200" y1="450" x2="200" y2="385" stroke-width="20" stroke="green"/> <!-- Raiatea -->
+    <text text-anchor="middle" transform="rotate(180deg)" x="200" y="490">Raiatea</text>
+    <line x1="400" y1="450" x2="400" y2="350" stroke-width="20" stroke="blue"/> <!-- Tongatapu -->
+    <text text-anchor="middle" transform="rotate(180deg)" x="390" y="490">Tongatapu</text>
+    <text x="50" y="30" fill="black">Relative Size in Square Miles in Three Pacific Islands</text>
+    
+    
+        <g>
+    
+        </g>
+        
+        
+</svg>
